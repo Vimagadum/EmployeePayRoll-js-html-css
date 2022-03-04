@@ -1,25 +1,25 @@
+/* UC 1 */
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: rgba(240, 227, 227, 0.281);
 }
-/* Header {
-  
+Header {
   height: 10vh;
   background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}*/
+}
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   font-size: 10px;
   margin-left: 122px;
   text-transform: uppercase;
-} 
+}
 img {
   width: 40px;
   height: 40px;
@@ -29,7 +29,12 @@ h1 {
   margin-right: 500px;
   font-size: larger;
 }
-
+.heading-emp {
+  color: #82a70c;
+}
+.heading-payroll {
+  color: #42515f;
+}
 .main-container {
   width: 80vw;
   margin-left: 125px;
@@ -46,17 +51,17 @@ h1 {
 }
 .search-adduser {
   display: flex;
-  
 }
 .searchlogo {
   background-color: #fff;
   border-radius: 20px;
   margin-top: 3px;
-  width: 5px;
-  height: 5px;
+  width: 60px;
+  height: 40px;
   padding: 8px 20px;
   margin-right: 10px;
 }
+
 .emp-text {
   font: normal normal bold 20px/25px Montserrat;
   font-family: "Montserrat", sans-serif;
@@ -95,7 +100,6 @@ td,
 th {
   text-align: center;
   padding: 5px 8px;
-  
 }
 th {
   background: #42515f no-repeat padding-box;
@@ -105,7 +109,6 @@ th {
   text-transform: uppercase;
 }
 .datarow {
-    
   margin-bottom: 20px;
   background-color: #ffffff;
   font-size: smaller;
