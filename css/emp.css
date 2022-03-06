@@ -148,14 +148,17 @@ body {
   
   .submitButton {
     margin-right: 30px;
-    background-color: greenyellow;
+    color: #fff;
+    background-color: green;
   }
   
   .cancelButton {
     text-decoration: none;
     text-align: center;
     background-color: red;
+    color: #fff;
   }
   .resetButton{
     background-color: gray;
+    color: #fff;
   }
